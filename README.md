@@ -1,4 +1,4 @@
-# flutter_application_7
+# Majlis-Canteen-Demo
 
 A new Flutter project.
 
