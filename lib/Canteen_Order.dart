@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class CountPage extends StatefulWidget {
-  const CountPage({super.key});
+class CanteenOrderFood extends StatefulWidget {
+  const CanteenOrderFood({super.key});
 
   @override
-  State<CountPage> createState() => _CountPageState();
+  State<CanteenOrderFood> createState() => _CanteenOrderFoodState();
 }
 
-class _CountPageState extends State<CountPage> {
+class _CanteenOrderFoodState extends State<CanteenOrderFood> {
   int noOrderCount = 0;
   bool wantToOrder = true;
 

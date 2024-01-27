@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_7/home.dart';
-import 'package:flutter_application_7/person.dart';
-import 'package:flutter_application_7/search.dart';
+import 'package:flutter_application_7/Canteen_Home.dart';
+import 'package:flutter_application_7/Canteen_Order.dart';
+import 'package:flutter_application_7/canteen_Menu.dart';
 
-class ScreenHome extends StatelessWidget {
-  const ScreenHome({Key? key}) : super(key: key);
+class CanteenMainScreen extends StatelessWidget {
+  const CanteenMainScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -23,9 +23,9 @@ class ScreenHome extends StatelessWidget {
         ),
         body: TabBarView(
           children: [
-            HomeHome(),
-            SearchSearch(),
-            CountPage(),
+            CanteenHome(),
+            CanteenFoodMenu(),
+            CanteenOrderFood(),
           ],
         ),
       ),

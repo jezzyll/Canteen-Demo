@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_7/menuitems.dart';
+import 'package:flutter_application_7/Daily_Menuitems.dart';
 
-class SearchSearch extends StatelessWidget {
-  const SearchSearch({super.key});
+class CanteenFoodMenu extends StatelessWidget {
+  const CanteenFoodMenu({super.key});
 
   @override
   Widget build(BuildContext context) {
