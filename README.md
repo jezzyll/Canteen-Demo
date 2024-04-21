@@ -1,6 +1,5 @@
  
 # Majlis-Canteen-Demo
-
 A new Flutter project-MAJLISGRAM
 
 
